@@ -49,7 +49,7 @@ body{
 .topnav-bar .name{
     font-size: 50px;
     font-weight: 400;
-    color:#E4E9F7;
+    color:#f2c562;
 
 }
 
@@ -117,9 +117,6 @@ body{
     z-index:1;
 }
 
-.searchBox .searchToggle{
-    position:absolute;
-}
 
 
 
