@@ -1,0 +1,138 @@
+/*Googale font import - popins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,300&display=swap');
+
+*{
+    font-family:'Poppins', sans-serif;
+    margin:0;
+    padding:0;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.main{
+    width:100%;
+    height:100vh;
+    background-color: #17202f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background:linear-gradient(135deg,#E4E9F7,#f2c562);
+    max-width:700px;
+    width:100%;
+    padding:25px 30px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 500px;
+}
+
+.logo{
+    width: 500px;
+    height: 500px;
+    /* margin: 5px; */
+    text-align: center;
+    align-items: center;
+    justify-content:center; 
+    /* border-radius: 10px;   */
+}
+
+.logo h1{
+    font-size: 28px;
+    font-weight: 700;
+    position:relative;
+    margin-top: 20px;
+}
+
+
+.logo img{
+    width:200px;
+    height: 200px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+
+.login-form{
+    width: 500px;
+    height: 500px;
+    /* margin: 5px; */
+    text-align: center;
+    align-items: center;
+    justify-content:center;
+    float: left;
+    /* border-radius: 10px;*/
+}
+
+.login-form .title{
+    font-size: 25px;
+    font-weight: 500;
+    position:relative;
+    margin-top: 20px;
+
+}
+
+.login-form .login-details{
+    display:flex;
+    flex-wrap: wrap;
+    float:left;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+
+.input-inbox{
+    width:100%; 
+    margin: 15px;
+}
+
+.input-inbox .details{
+    font-size: 18px;
+    font-weight: 500;
+    color: #17202f;
+    float: left;
+    margin: 5px;
+}
+
+.input-inbox input{
+    width: 100%;
+    border-radius: 5px;
+    border-style:double;
+    border-color:#f2c562;
+    padding: 10px;
+    border: none;
+    transition: all 0.3s ease;
+    outline:none;
+    caret-color: #17202f;
+}
+
+.button input{
+    width: 60%;
+    height: 45px;
+    border: none;
+    background:#17202f;
+    color:#E4E9F7;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius:  5px;
+}
+
+.button input:hover{
+    border-radius: 5px;
+    transform: scale(0.94);
+}
+
+
+
+
+
+
