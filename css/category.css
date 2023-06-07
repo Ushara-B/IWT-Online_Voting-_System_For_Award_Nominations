@@ -203,11 +203,9 @@ body{
 }
 
 .category:hover{
-    background:linear-gradient(135deg,#17202f,#E4E9F7);
-    margin: 20px;
-    height:220px;
-    width:370px;
-    text-align: center;
+    
+ padding: 10px;
+
 }
 
 .category p{
