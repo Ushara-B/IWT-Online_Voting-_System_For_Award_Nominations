@@ -97,11 +97,10 @@ body{
     padding: 10px;
     display: flex;
     align-items:center;
-    justify-content:right;
-    
+    justify-content:right;   
 }
 
-/* .username-search .searchbox .search-field{
+/*  .username-search .searchbox .search-field{
      background-color:#17202f;
 } */
 
@@ -173,12 +172,114 @@ body{
 
 /* No name */
 .noname{
-    height: 600px;
     width:100%;
     background-color:#17202f;
-    position: relative;
-    top:80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
+/* winner-category */
+
+.user-profile{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center;
+    margin:150px;
+    margin-left: 200px;
+}
+.card{
+    background-color: #F4DB7E;
+    margin: 10px;
+    width:1200px;
+    /* text-align: center; */
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card h2{
+    text-align: left;
+    margin-left:30px;
+    margin-top:20px;
+    
+}
+
+.card table{
+    /* border: 2px solid black; */
+    width:1000px;
+    margin:20px;
+    background-color: #ffff;
+    border-radius: 5px;
+} 
+
+.card table tr td{
+    /* border: 2px solid black; */
+    background-color: #ffff;
+    font-weight: 500;
+    padding: 20px;
+    
+}
+
+.card table tr .t{
+    width:30%;
+    background-color: #e1e2e45f;
+    border-radius: 5px;
+
+} 
+
+.card table tr .n{
+    background-color: #e1e2e45f;
+    border-radius: 5px;
+} 
+
+
+
+.card table tr td input{
+    display:none;
+}
+
+.card table tr .first-row{
+    display: flex;
+    float: left;
+    justify-content: start;
+    align-items: center;
+}
+
+.card table data{
+    width: 300px;
+}
+
+.card table tr td img{
+    width:150px;
+    height:150px;
+}
+
+.card table tr td label{
+    display:block;
+    width:100px;
+    background:#17202f;
+    color: #ffff;
+    padding: 6px;
+    border-radius: 4px;
+    cursor:pointer;
+    text-align: center;
+    margin: 30px;
+}
+
+.card table tr td label:hover{
+    padding: 8px;
+}
+
+.card .vote th{
+    text-align: left;
+    padding: 10px;
+}
+
+
 
 /* Footer */
 .footer{
