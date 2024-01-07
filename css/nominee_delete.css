@@ -1,0 +1,163 @@
+/*Googale font import - popins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,300&display=swap');
+
+body{
+	margin:0px;
+	padding: 0px;
+	background-color:#1b203d;
+
+    font-family:'Poppins', sans-serif;
+}
+.clearfix{
+	clear: both;
+}
+
+/* Side Navigation */
+
+.logo{
+	margin: 0px;
+	margin-left: 28px;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.logo span{
+	color: #f2c562;
+}
+
+.sidenav {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #272c4a;
+  overflow: hidden;
+  transition: 0.5s;
+  padding-top: 30px;
+}
+.img-logo{
+    height: 100px;
+    width:100px;
+    padding-left: 20%;  
+}
+
+.sidenav a {
+  padding: 15px 8px 15px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+  background-color:#17202f;
+}
+.sidenav{
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+  margin-left: 300px;
+}
+.head{
+	padding:20px;    
+}
+
+.col-div-6{
+	width: 50%;
+	float: left;
+}
+
+.profile{
+	display: inline-block;
+	width: 200px;
+    float: right;
+}
+
+.pro-img{
+	float: left;
+	width: 40px;
+	margin-top: 5px;
+}
+
+.profile p{
+	color: white;
+	font-weight: 500;
+	margin-left: 55px;
+	margin-top: 10px;
+	font-size: 13.5px;
+}
+
+.profile p span{
+	font-weight: 400;
+    font-size: 12px;
+    display: block;
+    color: #010101;
+}
+
+
+.noname{
+    width:80%;
+    margin-left: 300px;   
+}
+
+.noname h3{
+    margin-left: 40px;
+    color: #f1f1f1;
+}
+
+.noname table{
+    margin-left: 40px;
+    width:1000px;
+    margin:30px;
+    background-color: #ffff;
+    border-radius: 5px
+
+}
+
+.noname table td{
+    padding: 15px;
+    background-color: #ffff;
+    font-weight: 500;
+    padding: 20px;
+    text-align: center;
+}
+
+table .btnU{
+    background-color: #17202f;
+    color: #f1f1f1;
+    padding: 5px;
+    width:100px;
+    font-size: 15px;
+    border: none;
+}
+
+table .btnD{
+    background-color:#7a0505;
+    color: #f1f1f1;
+    padding: 5px;
+    width:100px;
+    font-size: 15px;
+    border:none;
+}
+
+
+table .btnU:hover{
+    background-color: #272c4a;
+}
+
+table .btnD:hover{
+    background-color: #ab1e1e;
+}
+

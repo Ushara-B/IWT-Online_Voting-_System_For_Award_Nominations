@@ -7,6 +7,8 @@
     padding:0;
 }
 
+
+
 body{
     height: 100vh;
 }
@@ -51,18 +53,19 @@ body{
 }
 .topnav-bar .sign-search{
     padding: 10px;
-    height: 150PX; 
+    height: 100PX; 
     width: 400px;  
 }
 
 .sign-search .sign{
-    margin-bottom: 80PX;
+    margin-bottom: 50PX;
 }
 
 .sign-search .sign .sign-links{
     display: flex;
     align-items:center;
     justify-content:right;
+   
 }
 
 .sign .sign-links li{
@@ -81,6 +84,7 @@ body{
     text-decoration: none;
     font-weight: 400;
     color:#F4DB7E;
+   
 }
 
 
